@@ -2,6 +2,10 @@
 
 UptimeWatch is a web-based website health monitoring application that allows users to check website availability, view HTTP response status, measure response time, and review recent monitoring history.
 
+## 📸 Dashboard Preview
+
+![UptimeWatch Dashboard](docs/dashboard.png)
+
 ## ✨ Features
 
 - **Website Health Checks** — Check a website using its URL.
@@ -64,6 +68,8 @@ In PowerShell, from the project root:
 $env:DB_PASSWORD = "YOUR_LOCAL_DATABASE_PASSWORD"
 .\mvnw.cmd spring-boot:run
 ```
+
+Replace `YOUR_LOCAL_DATABASE_PASSWORD` with your own local database password. Do not share or commit it.
 
 The backend runs on `http://localhost:8080` by default.
 
