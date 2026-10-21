@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "http://localhost:8080/api";
+const API = "http://3.110.84.26:8080/api";
 const presets = ["https://example.com", "https://www.google.com"];
 
 function App() {
