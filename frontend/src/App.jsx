@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "https://electron-neo-invision-armor.trycloudflare.com/api";
+const API = "https://every-clocks-coleman-upgrading.trycloudflare.com/api";
 const presets = ["https://example.com", "https://www.google.com"];
 
 function App() {
