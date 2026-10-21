@@ -49,6 +49,13 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- Rate limiting: Java 21 compatible -->
+        <dependency>
+            <groupId>com.bucket4j</groupId>
+            <artifactId>bucket4j_jdk17-core</artifactId>
+            <version>8.21.0</version>
+        </dependency>
+
         <!-- Tests -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
